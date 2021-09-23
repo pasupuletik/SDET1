@@ -1,4 +1,4 @@
-Feature:Creating test for regres-in API pages
+Feature:Creating test for regres-in API Tests
   @smoke
   Scenario:Creating Get call for single user
     Given I am baseURI of the regres application
