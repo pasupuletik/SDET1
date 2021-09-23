@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smokeTests.CucumberRunnerTest" duration-ms="5803" started-at="2021-09-23T01:15:16Z" finished-at="2021-09-23T01:15:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="5803" started-at="2021-09-23T01:15:16Z" finished-at="2021-09-23T01:15:22Z">
+      <class name="smokeTests.CucumberRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="setUpClass" is-config="true" duration-ms="658" started-at="2021-09-23T01:15:16Z" finished-at="2021-09-23T01:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="2811" started-at="2021-09-23T01:15:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating Get call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="672" started-at="2021-09-23T01:15:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating post call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="413" started-at="2021-09-23T01:15:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating put call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="411" started-at="2021-09-23T01:15:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating delete call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="415" started-at="2021-09-23T01:15:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating post2 call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="runScenario" duration-ms="207" started-at="2021-09-23T01:15:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-23T01:15:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating getlist call for single user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Creating test for regres-in API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:smokeTests.CucumberRunnerTest@735b5592]" name="tearDownClass" is-config="true" duration-ms="185" started-at="2021-09-23T01:15:22Z" finished-at="2021-09-23T01:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- smokeTests.CucumberRunnerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- smokeTests.CucumberRunnerTest -->
+</testng-results>

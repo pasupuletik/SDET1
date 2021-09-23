@@ -1,0 +1,352 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-23T01:15:17.530Z",
+        "line": 3,
+        "name": "Creating Get call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-get-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 437000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1931000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I passing endpoint for single user",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.setResponse()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I validate the status code",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.validationStatus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate email",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iValidateEmail()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T01:15:20.205Z",
+        "line": 10,
+        "name": "Creating post call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-post-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I passing endpoint for create user",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iPassingEndpointForCreateUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I validate the status code of",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iValidateTheStatusCodeOf()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I Validate id",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iValidateId()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T01:15:20.867Z",
+        "line": 17,
+        "name": "Creating put call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-put-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I passing endpoint for update user",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iPassingEndpointForUpdateUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I validate the status code",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.validationStatus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "validate updated time",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.validateUpdatedTime()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T01:15:21.279Z",
+        "line": 24,
+        "name": "Creating delete call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-delete-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 406000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I passing endpoint for delete user",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iPassingEndpointForDeleteUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I validate the status code for delete",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iValidateTheStatusCodeForDelete()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T01:15:21.691Z",
+        "line": 31,
+        "name": "Creating post2 call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-post2-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I passing endpoint for postcall",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iPassingEndpointForPostcall()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I validate the status code",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.validationStatus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T01:15:22.107Z",
+        "line": 36,
+        "name": "Creating getlist call for single user",
+        "description": "",
+        "id": "creating-test-for-regres-in-api;creating-getlist-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.BaseApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I passing endpoint for list of users",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.iPassingEndpointForListOfUsers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I validate the status code",
+            "match": {
+              "location": "stepDefinitions.ApiSteps.validationStatus()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Creating test for regres-in API",
+    "description": "",
+    "id": "creating-test-for-regres-in-api",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/feature/api.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-11T02:29:12Z" name="Default Suite" finished-at="2021-09-11T02:29:18Z" duration-ms="5913">
+    <groups>
+    </groups>
+    <test started-at="2021-09-11T02:29:12Z" name="QAtoQE_Framework" finished-at="2021-09-11T02:29:18Z" duration-ms="5913">
+      <class name="smokeTests.SmokeTest1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:smokeTests.SmokeTest1@954b04f]" started-at="2021-09-11T02:29:12Z" name="setup" finished-at="2021-09-11T02:29:14Z" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:smokeTests.SmokeTest1@954b04f]" started-at="2021-09-11T02:29:14Z" name="test1" finished-at="2021-09-11T02:29:18Z" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:smokeTests.SmokeTest1@954b04f]" started-at="2021-09-11T02:29:18Z" name="test2" finished-at="2021-09-11T02:29:18Z" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:smokeTests.SmokeTest1@954b04f]" started-at="2021-09-11T02:29:18Z" name="tearDown" finished-at="2021-09-11T02:29:18Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- smokeTests.SmokeTest1 -->
+    </test> <!-- QAtoQE_Framework -->
+  </suite> <!-- Default Suite -->
+</testng-results>
